@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "À propos de moi"
+title: "À propos"
 date: 2014-01-09 20:20
 comments: true
 
