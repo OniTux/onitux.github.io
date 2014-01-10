@@ -4,11 +4,11 @@
   <title><![CDATA[Coin coin]]></title>
   <link href="http://oniTux.github.io/atom.xml" rel="self"/>
   <link href="http://oniTux.github.io/"/>
-  <updated>2014-01-09T19:54:46+01:00</updated>
+  <updated>2014-01-11T00:54:35+01:00</updated>
   <id>http://oniTux.github.io/</id>
   <author>
     <name><![CDATA[Daniel Chesters]]></name>
-    
+    <email><![CDATA[daniel.chesters+site(A)gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
