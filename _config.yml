@@ -19,7 +19,7 @@ date_format: "%d/%m/%Y"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: daniel.chesters+site(A)gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
