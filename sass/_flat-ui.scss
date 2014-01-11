@@ -179,7 +179,10 @@
 body {
   color: $text-color;
   background: $bg-color;
-  font: 18px/1.831 "Open Sans", sans-serif; }
+  font: 18px/1.831 "Open Sans", sans-serif; 
+  padding-left: 20px;
+  padding-right: 20px;
+  }
 
 p {
   font-weight: 300; }
@@ -548,6 +551,8 @@ h6 {
   font-size: 18px;
   border: 0px;
   margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
   }
   .navbar .brand {
     color: $tertiary-color;
@@ -2707,5 +2712,50 @@ a:hover > .badge {
     .navbar .navbar-btn {
         display: block;
     }
+    .navbar-collapse {
+        clear: both;
+    }
+    .navbar .container {
+        width: auto;
+        padding: 0px;
+    }
+    .navbar-collapse.in {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        overflow: hidden;
+    }
+    .navbar .navbar-collapse .nav {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .navbar .navbar-collapse .nav.pull-right {
+        float: none !important;
+    }
+
+    
+}
+
+.navbar-inverse .navbar-btn {
+  color: $navbar-color;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  line-height: 20px;
+}
+
+.navbar-inverse .navbar-btn:hover,
+.navbar-inverse .navbar-btn:active,
+.navbar-inverse .navbar-btn.active,
+.navbar-inverse .navbar-btn.disabled,
+.navbar-inverse .navbar-btn[disabled] {
+    color: $tertiary-color;
+}
+
+.navbar-inverse .navbar-btn:active,
+.navbar-inverse .navbar-btn.active {
+
 }
 
