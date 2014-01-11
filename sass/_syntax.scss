@@ -17,7 +17,9 @@
     background: $code-bg-color !important;
     @include box-shadow(lighten(#34495e, 2) -1px 0 inset);
   }
-  span { color: inherit !important; }
+  span {
+    color: $base1 !important;
+  }
   padding: .6em !important;
 }
 

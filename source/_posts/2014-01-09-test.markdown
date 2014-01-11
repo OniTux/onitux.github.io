@@ -7,6 +7,8 @@ published: false
 categories: [test, fr]
 ---
 
+Ceci est une série de test
+
 {% gist 4582110 %}
 
 ```
